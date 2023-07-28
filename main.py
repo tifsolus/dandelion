@@ -1,8 +1,8 @@
 """ 
-@Program: Tinkter GUI Temperature
+@Program: Tinkter Dandelion Application
 @Author: Donald Osgood
 @Last Date: 2023-07-11 18:46:51
-@Purpose: A GUI interface to convert celsius to fahrenheit or F to C
+@Purpose: A GUI to order cakes from local vendors
 """
 import sqlite3
 import tkinter as tk
