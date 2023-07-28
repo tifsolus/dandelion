@@ -1,0 +1,11 @@
+forms: [{'formitemname':'','title':'Exit', 'modulename':'','classname':'', 
+'menutype':'exit','childitems':[],'commandfunc':'self.destroy()'},{'formitemname':'startform','title':'Home', 'modulename':'start_form','classname':'Form', 
+'menutype':'startform','childitems':[],'commandfunc':''},
+{'formitemname':'orderform','title':'Place Order!', 'modulename':'order_form','classname':'Form', 
+'menutype':'topform','childitems':[],'commandfunc':''},
+{'formitemname':'','title':'Manage', 'modulename':'','classname':'', 
+'menutype':'parent',
+'childitems':[{'formitemname':'vieworders','title':'View Orders','modulename':'view_orders','classname':'Form', 
+'menutype':'topform','childitems':[], 'commandfunc':self._forms_manager.set_active_form('vieworder')}],'commandfunc':''
+}
+]
